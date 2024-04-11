@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+    background: linear-gradient(0deg, #fffefe 0%, #efe8e8 100%);
+font-family: Montserrat,serif;
+
+}
+
+.sidebar {
+    color:rgb(0, 0, 0);
+    background-color: rgb(224, 221, 221);
+}
+.nav-link {
+    color:gray;
+}
+.navbar-nav .nav-link.active {
+    color:rgb(50, 50, 50)
+}
+.navbar-brand img {
+width: 55px;
+}
+.card {
+    background-color: rgb(249, 246, 246);
+    width: fit-content; 
+}
+.slide-text,
+.footer-text {
+    color:rgb(50, 50, 50);
+    margin: auto auto;
+}
+.card-img:hover {
+    filter: invert(1);
+}
+footer {
+    background-color: rgb(245, 242, 242);
+}
+.media-links {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.nadpis-carousel {
+    
+    font: Montserrat;
+    font-weight: 500;
+    font-size: large;
+}
+.sec-video {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.back-uhod {
+    background-color: rgb(222, 218, 218);
+}
+.futbolka {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.carousel-inner {
+    background-color: rgb(205, 202, 202)
+}
+
+.image img {
+height: 300px;
+width: 100%;
+object-fit: cover;
+border-radius: 7px;
+}
+.image {
+    margin-bottom: 10px;
+}
+.info h3 {
+    font-size: 21px;
+    margin-bottom: 0;
+}
+.rating {
+margin-bottom: 0;
+padding-left: 0;
+list-style-type: none;
+}
+.rating li {
+    display: inline-block;
+    color: rgb(59, 59, 223);
+}
+.info-price {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.add-to-cart {
+    border: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(163, 163, 167);
+    border-radius: 10px;
+}
+.price {
+    font-weight: 1000px;
+    font-size: 18px;
+}
+
+.reg{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: url(https://recrentshop.ru/d/114_001.png) no-repeat;
+background-size: cover;
+background-position: center;
+background-size: 140%;
+}
+.wrapper {
+width: 420px;
+background:transparent; 
+border: 2px solid rgb(255, 255, 255 , .2);
+backdrop-filter: blur(20px);
+box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+color: #fff;
+border-radius: 10px;
+padding: 30px 40px;
+}
+.wrapper h1 {
+font-size: 36px;
+text-align: center;
+}
+.wrapper .input-box{
+width: 100%;
+height: 50px;
+background:rgb(205, 202, 202) ;
+margin: 40px 0;
+position: relative;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+   border-radius: 30px;
+   font-size: 16px;
+   color: black;
+   padding: 3px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: black;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.wrapper .remember{
+display: flex;
+justify-content: space-between;
+font-size: 14.5px;
+margin: -15px 0 15px;
+}
+.remember label input{
+    accent-color:black;
+    margin-right: 3px;
+}
+.remember a{
+    color: white;
+    text-decoration: none;
+}
+.remember a:hover{
+   text-decoration: underline;
+}
+.wrapper .btn{
+width: 50%;
+height: 45px;
+cursor: pointer;
+font-size: 16px;
+font-weight: 500;
+}
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+.register-link p a{
+    color: rgb(172, 164, 164);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.registr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://recrentshop.ru/d/xl_01_2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 125%;
+    }
+.add-to-cart:hover {
+    background-color: rgb(199, 197, 197);
+}
+
+.container {
+    display: grid;
+    margin: 0 auto;
+    width: 120%;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(310px, 310px));
+    position: relative;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 20px;
+  }
+  
+  .card {
+    width: 120%;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .card__poster {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+  }
+  
+  .card-poster__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card__databox {
+    display: grid;
+    grid-gap: 10px;
+    width: 100%;
+    padding: 25px 30px 20px 30px;
+    overflow: hidden;
+    background: #fff;
+  }
+  
+  .card-databox__heading {
+    overflow: hidden;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+  }
+  
+  .card-databox__description {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    line-height: 1.3;
+    color: #333;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .card-databox__read-more-btn {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    max-width: fit-content;
+    font-size: 13px;
+    padding: 5px 15px;
+    background: #3f51b5;
+    border-radius: 4px;
+  }
+  
+  .card-databox__read-more-btn:hover {
+    background: #35459b;
+    color: #fff;
+  }
+    
